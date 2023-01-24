@@ -504,10 +504,14 @@ body {
     skew(40deg, 40deg);
 }
 
-.link:hover::after {
-  text-decoration: underline;
-  line-height: 4px;
+.under-line {
   width: 53px;
-  radius: 2px;
-  fill: #2196f3;
+  height: 4px;
+  background-color: #ffffff;
+}
+.under-line:hover,
+.under-line:focus {
+  width: 53px;
+  height: 4px;
+  background-color: #2196f3;
 }
