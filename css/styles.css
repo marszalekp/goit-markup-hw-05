@@ -206,6 +206,25 @@ body {
     0px 2px 1px rgb(0 0 0 / 20%);
 }
 
+.div-box-portfolio {
+  position: relative;
+  overflow: hidden;
+}
+
+.div-box-porfolio-photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms ease;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.div-box-portfolio:hover .div-box-porfolio-photo {
+  transform: translateX(0);
+}
 .orderly {
   display: flex;
   justify-content: center;
