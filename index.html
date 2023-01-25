@@ -72,9 +72,14 @@
           <h1 class="effective">
             EFEKTYWNE ROZWIĄZANIA <br />DLA TWOJEGO BIZNESU
           </h1>
-          <buttton data-modal-open class="button" type="button"
-            >Zamów usługe</buttton
-          >
+          <div class="modal-background" data-modal>
+            <div modal class="box-click-button">
+              <buttton data-modal-open class="button" type="button"
+                >Zamów usługe</buttton
+              >
+              <div class="modal is-hidden" data-modal></div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -514,12 +519,7 @@
         </footer>
       </div>
     </div>
-    <div class="modal-background" data-modal>
-      <div modal class="box-click-button">
-        <button data-modal-open>Zamów usługę</button>
-        <div class="modal is-hidden" data-modal></div>
-      </div>
-    </div>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>

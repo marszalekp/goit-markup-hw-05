@@ -545,3 +545,12 @@ body {
     3px 0px 1px rgb(0, 0, 0, 0.12);
   position: absolute;
 }
+
+.modal-background {
+  height: 1024px;
+  width: 1600px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  background: #00000033;
+}
