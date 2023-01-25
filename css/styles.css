@@ -547,10 +547,10 @@ body {
 }
 
 .modal-background {
-  height: 1024px;
-  width: 1600px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
   left: 0px;
   top: 0px;
-  border-radius: 0px;
   background: #00000033;
 }
