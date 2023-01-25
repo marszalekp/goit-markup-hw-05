@@ -538,8 +538,9 @@ body {
 .box-click-button {
   height: 581px;
   width: 528px;
-  left: 536px;
-  top: 221px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border-radius: 4px;
   box-shadow: 1px 0px 2px rgb(0, 0, 0, 0.2), 1px 0px 1px rgb(0, 0, 0, 0.14),
     3px 0px 1px rgb(0, 0, 0, 0.12);
