@@ -105,12 +105,20 @@ body {
 .link:focus,
 .link:hover {
   color: #2196f3;
-  text-decoration: none;
 }
 
 .link {
   text-decoration: none;
   color: #757575;
+}
+
+.link .click:after {
+  border-bottom: 4px solid;
+  color: #2196f3;
+  display: flex;
+  border-radius: 3px;
+  position: relative;
+  top: 31px;
 }
 
 .contact__item .link {
@@ -219,6 +227,8 @@ body {
   transition: transform 250ms ease;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   inset: 0px 0px 0px 0px;
+  width: 100%;
+  height: 100%;
 }
 
 .label:hover .div-box-porfolio-photo {
@@ -563,6 +573,7 @@ body {
 
 .button-close-x {
   margin: auto;
+  align-items: center;
   display: flex;
   border-radius: 50%;
   border: 1px solid black;
