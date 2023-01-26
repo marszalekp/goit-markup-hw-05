@@ -233,6 +233,7 @@ body {
 
 .box:hover .label {
   transform: translateY(0);
+  height: 294px;
 }
 .label-text {
   font-weight: 400;
@@ -240,6 +241,27 @@ body {
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+.label-small-tram-parent {
+  position: relative;
+  overflow: hidden;
+}
+
+.label-smal-team {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 27px 90px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .orderly {
