@@ -535,7 +535,6 @@ body {
 }
 
 .box-click-button-modal {
-  display: flex;
   height: 581px;
   width: 528px;
   top: 50%;
@@ -548,6 +547,7 @@ body {
   align-items: flex-start;
   transition: transform 1000ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translate(-50%, -50%);
+  background-color: #ffffff;
 }
 
 .modal-background {
