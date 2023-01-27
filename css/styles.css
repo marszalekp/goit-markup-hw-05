@@ -584,7 +584,7 @@ body {
   position: absolute;
   justify-content: right;
   align-items: flex-start;
-  transition: transform 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: ease-out;
   transform: translate(-50%, -50%);
   background-color: #ffffff;
 }
