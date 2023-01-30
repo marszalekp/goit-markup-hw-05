@@ -355,7 +355,6 @@ body {
 
 .list-element {
   list-style: none;
-  margin-bottom: 9px;
 }
 
 .banner {
@@ -443,7 +442,7 @@ body {
 }
 
 .text-padding {
-  padding-top: 20px;
+  padding: 1px;
 }
 
 .text-position-one {
@@ -608,4 +607,17 @@ body {
 }
 .is-hidden .box-click-button-modal {
   transform: scale(1.15);
+}
+
+.page-active {
+  position: relative;
+}
+.page-active::after {
+  content: "";
+  border-bottom: 4px solid;
+  color: #2196f3;
+  display: flex;
+  border-radius: 3px;
+  position: relative;
+  top: 31px;
 }
