@@ -34,9 +34,6 @@ body {
   letter-spacing: 0.03em;
   text-align: left;
   color: #757575;
-  margin-left: 24px;
-  margin-bottom: 20px;
-  margin-top: 4px;
 }
 
 .title-four {
@@ -83,8 +80,6 @@ body {
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-left: 24px;
-  margin-top: 20px;
   color: #212121;
 }
 
@@ -621,4 +616,8 @@ body {
   border-radius: 3px;
   position: relative;
   top: 29px;
+}
+.padding-text-box-portfolio {
+  padding-left: 24px;
+  padding-top: 20px;
 }
